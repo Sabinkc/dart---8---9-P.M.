@@ -68,7 +68,7 @@ void main() {
   //assignment operators
   //used to assign values
   // =, +=, -=, *=, /=, %=, ~/=, ??=
-  int a = 7;
+  // int a = 7;
   // a += 3; // a = a + 3; a = 6 + 3;
   // a -= 3; //a = a -3; a = 6 - 3;
   // a *= 2; // a = a *2; a = 6 * 2;
@@ -77,5 +77,28 @@ void main() {
   // a %= 3; //a = a % 3; a = 7 % 3;
   // print(a);
 
-  //??= 
+  //??=
+  //only assigns value if the variable value is null
+  // String? name = null;
+  // name ??= "ram";
+  // print(name);
+
+  //?? - if null
+  //uses right value if only the left variable is null
+  // String? name = "ram";
+  // String updatedName = name ?? "john";
+  // print(updatedName);
+
+  // ?. - null aware access
+  //allows you to access a property or method, only if the
+  //variable value is not null
+
+  // String? name = "john";
+  // print(name?.toLowerCase());
+
+  //conditional/ternary operator
+  //condition ? statement1 - if condition true : statement2 - if condition false;
+
+  // int a = 11;
+  // print(a > 18 ? "adult" : "not an adult");
 }
